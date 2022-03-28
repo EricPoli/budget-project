@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./index.module.css"
 import savings from "../../../img/savings.svg"
-import LinkButton from "../../layout/LinkButton"
+import LinkButton from "../../layout/LinkButton/index"
 
 const Home = () => {
     return (

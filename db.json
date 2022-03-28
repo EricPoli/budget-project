@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "name": "Casatua",
+      "budget": "4000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": -5000,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "MR Instalações",
+      "budget": "3000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": -57950,
+      "services": [
+        {
+          "name": "Design UX",
+          "cost": "2000",
+          "description": "Criação do layout do site",
+          "id": "cf205f49-f166-4655-9de5-8586cc28d1a2"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

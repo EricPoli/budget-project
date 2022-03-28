@@ -1,0 +1,71 @@
+.service_card {
+    width: 24%; 
+    margin: .5%;
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.service_card h4 {
+    background-color: #222;
+    color: #ffbb33;
+    padding: .4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+    border-radius: 8px;
+}
+
+.service_card p {
+    color: #7a7a7a;
+    margin-bottom: 1em;
+}
+
+.service_card p span {
+    font-weight: bold;
+}
+
+.category_text {
+    display: flex;
+    align-items: center;
+}
+
+.description_text span {
+    display: absolute;
+    font-weight: bold;
+}
+
+
+.service_card_actions {
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service_card_actions a,
+.service_card_actions button {
+    text-decoration: none;
+    background-color: #fff;
+    color: #222;
+    font-size: .9em;
+    padding: .6em 1em;
+    margin: 0 .5em;
+    border: 1px solid #222;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.service_card_actions svg {
+    margin-right: .5em;
+}
+
+.service_card_actions a:hover,
+.service_card_actions button:hover {
+    background-color: #222;
+    color: #ffbb33;
+}
